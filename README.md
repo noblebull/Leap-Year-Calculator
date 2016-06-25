@@ -2,7 +2,7 @@
 #This code provides the basis for a simple leap year calculator in python
 #look at the code in raw form and copy it into a python launcher
 year = int(input("Enter an year"))
-def leapyear(x)
+def leapyear(x):
   if x % 400 == 0:
     return True
   if x % 100 == 0:
@@ -11,4 +11,6 @@ def leapyear(x)
     return True
   else:
     return False
-print leapyear(year)
+  return x
+y = leapyear(year)
+print(y)

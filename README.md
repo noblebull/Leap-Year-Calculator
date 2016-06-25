@@ -1,6 +1,5 @@
 # Leap-Year-Calculator
 #This code provides the basis for a simple leap year calculator in python
-#look at the code in raw form and copy it into a python launcher
 year = int(input("Enter an year"))
 def leapyear(x):
   if x % 400 == 0:
